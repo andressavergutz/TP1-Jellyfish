@@ -23,7 +23,6 @@ A Figura 9 foi gerada na VM com TCP. Enquanto os resultados da Tabela 1 foram ob
 
 ```
 1 - sudo apt-get install python-matplotlib python-numpy python-network
-2 - sudo apt-get install iperf3
 ```
 
 Além das bibliotecas do python, é necessário instalar o monitor de largura de banda (bwm-ng). Através desse monitor é possível executar o comando iperf e medir o throughput. Para isso, execute os seguintes comandos:
@@ -40,20 +39,33 @@ Além das bibliotecas do python, é necessário instalar o monitor de largura de
 
 ### Instalando nosso repositório
 
-O artigo discutido neste resumo foi publicado em 2012, havendo assim um espaço de tempo de 6 anos até o momento. Devido a isso, há diversos trabalhos na literatura que tentaram reproduzir os mesmos resultados do artigo (Figura 9 e Tabela 1) e disponibilizaram o código na plataforma GitHub. Dessa forma, a fim de auxiliar o desenvolvimento do trabalho foi testado vários códigos de repositórios. No geral, a maioria dos trabalhos apenas reproduz a Figura 9, se abstendo da Tabela 1. Em vista disso, utilizamos um projeto (link do repositório original: https://github.com/aghalayini/CS244_jellyfish) que gera a Figura 9 e parte da Tabela 1. Fizemos algumas alterações nos códigos para melhorar os resultados e testamos com diferentes números de servidores. Os principais códigos alterados foram o graph-paths.py e build_topology.py.
+O artigo discutido neste TP1 foi publicado em 2012, havendo assim um espaço de tempo de 6 anos até o momento. Devido a isso, há diversos trabalhos na literatura que tentaram reproduzir os mesmos resultados do artigo (Figura 9 e Tabela 1) e disponibilizaram o código na plataforma GitHub. Dessa forma, a fim de auxiliar o desenvolvimento do trabalho foi testado vários códigos de repositórios. No geral, a maioria dos trabalhos apenas reproduz a Figura 9, se abstendo da Tabela 1. Em vista disso, utilizamos como base um projeto ([link](https://github.com/aghalayini/CS244_jellyfish) do repositório original) que gera a Figura 9 e parte da Tabela 1. Fizemos alterações nos códigos, criamos alguns scripts e testamos com diferentes números de servidores. Os principais códigos alterados foram o graph-paths.py e build_topology.py.
 
-Para executar nossos testes, execute os seguintes comandos:
+Para instalar nosso respositório e executar nossos testes, execute os seguintes comandos:
 
 ```
-1 - git clone https://github.com/andressavergutz/TP1-Jellyfish.git
-2 - cd TP1-Jellyfish/pox/ext/
-3 - sudo python graph-paths.py
-    - Esse comando gera a Figura 9 (figure9.svg) e um grafo da topologia da rede (network-graph.svg).
-4 - sudo python build_topology.py
-    - Esse comando irá gerar o throughput médio, com ele você poderá obter os resultados para a Tabela 1. Nós executamos de 3 vezes cada cenário para obter uma média final. No código você pode alterar os parâmetros relacionados ao número de servidores, número de fluxos e protocolo de roteamento usado. Dessa forma, é possível testar diferentes cenários. A única restrição é que os resultados são apenas para a topologia Jellyfish. O Fat-tree não conseguimos implementar.
+1 - git clonehttps://github.com/andressavergutz/TP1-Jellyfish.git
+2 - cd TP1-Jellyfish/jellyfish/pox/ext/
+3 - sudo chmod +x run.sh 
 ```
 
+Se você estiver na **VM1 com o TCP** compilado no kernel do linux, execute:
 
+```
+4 - sudo ./run.sh --tcp  
+```
+	- Esse comando gera a Figura 9 (figure9.svg), um grafo da topologia da rede (network-graph.svg) e a Tabela 1 (parte do TCP).
+	- Para gerar a Tabela 1 esse script irá executar os 4 cenários referentes ao protocolo TCP (1fluxo_ECMP, 8fluxos_ECMP, 1fluxo_8shortest e 8fluxos_8shortest). Nos cenários utilizamos 20 servidores, mas você pode alterar os scripts para alterar esse parâmetro. Além disso, irá executar 3 vezes cada cenário para obter o througput médio final. Quando o script terminar de executar todo o cenário, ele apresentará a Tabela 1 no terminal bash. 
+	![Exemplo de saída da Tabela 1](example-Table1-TCP.png)
 
+Se você estiver na **VM2 com o MPTCP** compilado no kernel do linux, execute:
+
+```
+5 - sudo ./run.sh --mptcp  
+    - Esse comando gera a Figura 9 (figure9.svg), um grafo da topologia da rede (network-graph.svg) e a Tabela 1 (parte do MPTCP).
+	- Para gerar a Tabela 1 esse script irá executar os 2 cenários referentes ao protocolo MPTCP (8fluxos_ECMP e 8fluxos_8shortest). Nos cenários utilizamos 20 servidores, mas você pode alterar os scripts para alterar esse parâmetro. Além disso, irá executar 3 vezes cada cenário para obter o througput médio final. Quando o script terminar de executar todo o cenário, ele apresentará a Tabela 1 no terminal bash.
+```
+
+Obs.: A única restrição é que os resultados são apenas para a topologia Jellyfish. O Fat-tree não conseguimos implementar.
 
 
