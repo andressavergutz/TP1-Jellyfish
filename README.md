@@ -72,3 +72,6 @@ Se você estiver na **VM2 com o MPTCP** compilado no kernel do linux, execute:
 Obs.: A única restrição é que os resultados são apenas para a topologia Jellyfish. O Fat-tree não conseguimos implementar.
 
 
+Divirta-se! (:
+
+
