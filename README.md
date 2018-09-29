@@ -2,7 +2,7 @@
 
 Reprodução dos principais resultados do artigo "Jellyfish: Networking Data Centers Randomly". Esses resultados englobam a Figura 9 e Tabela 1 do artigo.
 
-A construção da topologia Jellyfish se embasa em um grafo aleatório. Em teoria dos grafos, um grafo aleatório é obtido a partir de um conjunto de n vértices e adicionando arestas entre elas de forma aleatória. No caso da topologia Jellyfish, a construção desse grafo consiste em um conjunto de switches e servidores, onde cada servidor está conectado a um determinado switch. As conexões entre os switches são realizadas de forma aleatória. Para mais detalhes sobre a topologia Jellyfish acesse o link https://andressavergutz.wordpress.com/info7015-jellyfish/. Este link contém também a descrição deste trabalho (TP1), resultados alcançados e dificuldades encontradas.
+A construção da topologia Jellyfish se embasa em um grafo aleatório. Em teoria dos grafos, um grafo aleatório é obtido a partir de um conjunto de n vértices e adicionando arestas entre elas de forma aleatória. No caso da topologia Jellyfish, a construção desse grafo consiste em um conjunto de switches e servidores, onde cada servidor está conectado a um determinado switch. As conexões entre os switches são realizadas de forma aleatória. Para mais detalhes sobre a topologia Jellyfish acesse o [link avergutz_ccsc sobre o TP1-Jellysifh]( https://andressavergutz.wordpress.com/info7015-jellyfish/). Este link contém a descrição deste trabalho (TP1), resultados alcançados e dificuldades encontradas.
 
 
 ## Reproduzindo nossos resultados
@@ -39,7 +39,7 @@ Além das bibliotecas do python, é necessário instalar o monitor de largura de
 
 ### Instalando nosso repositório
 
-O artigo discutido neste TP1 foi publicado em 2012, havendo assim um espaço de tempo de 6 anos até o momento. Devido a isso, há diversos trabalhos na literatura que tentaram reproduzir os mesmos resultados do artigo (Figura 9 e Tabela 1) e disponibilizaram o código na plataforma GitHub. Dessa forma, a fim de auxiliar o desenvolvimento do trabalho foi testado vários códigos de repositórios. No geral, a maioria dos trabalhos apenas reproduz a Figura 9, se abstendo da Tabela 1. Em vista disso, utilizamos como base um projeto ([link do repositório original](https://github.com/aghalayini/CS244_jellyfish)) que gera a Figura 9 e parte da Tabela 1. Fizemos alterações nos códigos, criamos alguns scripts e testamos com diferentes números de servidores. Os principais códigos alterados foram o graph-paths.py e build_topology.py.
+O artigo discutido neste TP1 foi publicado em 2012, havendo assim um espaço de tempo de 6 anos até o momento. Devido a isso, há diversos trabalhos na literatura que tentaram reproduzir os mesmos resultados do artigo (Figura 9 e Tabela 1) e disponibilizaram o código na plataforma GitHub. Dessa forma, a fim de auxiliar o desenvolvimento do trabalho foi testado vários códigos de repositórios. No geral, a maioria dos trabalhos apenas reproduz a Figura 9, se abstendo da Tabela 1. Em vista disso, utilizamos como base um projeto ([link do repositório](https://github.com/aghalayini/CS244_jellyfish)) que gera a Figura 9 e parte da Tabela 1. Fizemos alterações nos códigos, criamos alguns scripts e testamos com diferentes números de servidores. Os principais códigos alterados foram o graph-paths.py e build_topology.py.
 
 Para instalar nosso respositório e executar nossos testes, execute os seguintes comandos:
 
