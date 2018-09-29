@@ -56,7 +56,7 @@ Se você estiver na **VM1 com o TCP** compilado no kernel do linux, execute:
 ```
 
 - Esse comando gera a Figura 9 (figure9.svg), um grafo da topologia da rede (network-graph.svg) e a Tabela 1 (parte do TCP).
-- Para gerar a Tabela 1 esse script irá executar os 4 cenários referentes ao protocolo TCP (1fluxo_ECMP, 8fluxos_ECMP, 1fluxo_8shortest e 8fluxos_8shortest). Nos cenários utilizamos 20 servidores, mas você pode alterar os scripts para alterar esse parâmetro. Além disso, irá executar 3 vezes cada cenário para obter o througput médio final. Quando o script terminar de executar todo o cenário, ele apresentará a Tabela 1 no terminal bash. 
+- Para gerar a Tabela 1 esse script irá executar os 4 cenários referentes ao protocolo TCP (1fluxo_ECMP, 8fluxos_ECMP, 1fluxo_8shortest e 8fluxos_8shortest). Nos cenários utilizamos 20 servidores, mas você pode alterar os scripts para alterar esse parâmetro. Além disso, irá executar 3 vezes cada cenário para obter o througput médio final. Quando o script terminar de executar todo o cenário, ele apresentará a Tabela 1 no terminal bash. Exemplo de saída da Tabela 1:
 ![Exemplo de saída da Tabela 1](example-Table1-TCP.png)
 
 Se você estiver na **VM2 com o MPTCP** compilado no kernel do linux, execute:
@@ -65,7 +65,8 @@ Se você estiver na **VM2 com o MPTCP** compilado no kernel do linux, execute:
 5 - sudo ./run.sh --mptcp  
 ```
 - Esse comando gera a Figura 9 (figure9.svg), um grafo da topologia da rede (network-graph.svg) e a Tabela 1 (parte do MPTCP).
-- Para gerar a Tabela 1 esse script irá executar os 2 cenários referentes ao protocolo MPTCP (8fluxos_ECMP e 8fluxos_8shortest). Nos cenários utilizamos 20 servidores, mas você pode alterar os scripts para alterar esse parâmetro. Além disso, irá executar 3 vezes cada cenário para obter o througput médio final. Quando o script terminar de executar todo o cenário, ele apresentará a Tabela 1 no terminal bash.
+- Para gerar a Tabela 1 esse script irá executar os 2 cenários referentes ao protocolo MPTCP (8fluxos_ECMP e 8fluxos_8shortest). Nos cenários utilizamos 20 servidores, mas você pode alterar os scripts para alterar esse parâmetro. Além disso, irá executar 3 vezes cada cenário para obter o througput médio final. Quando o script terminar de executar todo o cenário, ele apresentará a Tabela 1 no terminal bash. Exemplo de saída da Tabela 1:
+![Exemplo de saída da Tabela 1](example-Table1-MPTCP.png)
 
 
 Obs.: A única restrição é que os resultados são apenas para a topologia Jellyfish. O Fat-tree não conseguimos implementar.
