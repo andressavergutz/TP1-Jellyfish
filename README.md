@@ -39,7 +39,7 @@ Além das bibliotecas do python, é necessário instalar o monitor de largura de
 
 ### Instalando nosso repositório
 
-O artigo discutido neste TP1 foi publicado em 2012, havendo assim um espaço de tempo de 6 anos até o momento. Devido a isso, há diversos trabalhos na literatura que tentaram reproduzir os mesmos resultados do artigo (Figura 9 e Tabela 1) e disponibilizaram o código na plataforma GitHub. Dessa forma, a fim de auxiliar o desenvolvimento do trabalho foi testado vários códigos de repositórios. No geral, a maioria dos trabalhos apenas reproduz a Figura 9, se abstendo da Tabela 1. Em vista disso, utilizamos como base um projeto ([link do repositório](https://github.com/aghalayini/CS244_jellyfish)) que gera a Figura 9 e parte da Tabela 1. Fizemos alterações nos códigos, criamos alguns scripts e testamos com diferentes números de servidores. Os principais códigos alterados foram o graph-paths.py e build_topology.py.
+O artigo discutido neste TP1 foi publicado em 2012, havendo assim um espaço de tempo de 6 anos até o momento. Devido a isso, há diversos trabalhos na literatura que tentaram reproduzir os mesmos resultados do artigo (Figura 9 e Tabela 1) e disponibilizaram o código na plataforma GitHub. Dessa forma, a fim de auxiliar o desenvolvimento do trabalho foi testado vários códigos de repositórios. No geral, a maioria dos trabalhos apenas reproduz a Figura 9, se abstendo da Tabela 1. Em vista disso, utilizamos como base um projeto ([link do repositório](https://github.com/aghalayini/CS244_jellyfish)) que gera a Figura 9 e parte da Tabela 1. Fizemos alterações nos códigos, criamos alguns scripts e testamos com diferentes números de servidores. 
 
 Para instalar nosso respositório e executar nossos testes, execute os seguintes comandos:
 
@@ -59,10 +59,10 @@ Se você estiver na **VM1 com o TCP** compilado no kernel do linux, execute:
 - Para gerar a Tabela 1 esse script irá executar os 4 cenários referentes ao protocolo TCP (1fluxo_ECMP, 8fluxos_ECMP, 1fluxo_8shortest e 8fluxos_8shortest). Nos cenários utilizamos 20 servidores, mas você pode alterar os scripts para alterar esse parâmetro. Além disso, irá executar 3 vezes cada cenário para obter o througput médio final. Quando o script terminar de executar todo o cenário, ele apresentará a Tabela 1 no terminal bash. Exemplo de saída da Tabela 1:
 ![Exemplo de saída da Tabela 1](example-Table1-TCP.png)
 
-Se você estiver na **VM2 com o MPTCP** compilado no kernel do linux, execute:
+Ou, se você estiver na **VM2 com o MPTCP** compilado no kernel do linux, execute:
 
 ```
-5 - sudo ./run.sh --mptcp  
+4 - sudo ./run.sh --mptcp  
 ```
 - Esse comando gera a Figura 9 (figure9.svg), um grafo da topologia da rede (network-graph.svg) e a Tabela 1 (parte do MPTCP).
 - Para gerar a Tabela 1 esse script irá executar os 2 cenários referentes ao protocolo MPTCP (8fluxos_ECMP e 8fluxos_8shortest). Nos cenários utilizamos 20 servidores, mas você pode alterar os scripts para alterar esse parâmetro. Além disso, irá executar 3 vezes cada cenário para obter o througput médio final. Quando o script terminar de executar todo o cenário, ele apresentará a Tabela 1 no terminal bash. Exemplo de saída da Tabela 1:
