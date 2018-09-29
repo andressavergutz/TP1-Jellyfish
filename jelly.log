@@ -1,0 +1,309 @@
+INFO:core:POX 0.5.0 (eel) is up.
+INFO:openflow.of_01:[00-00-00-00-00-05 1] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-05 1] -- 5
+INFO:openflow.of_01:[00-00-00-00-00-06 9] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-06 9] -- 6
+INFO:openflow.of_01:[00-00-00-00-00-02 2] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-02 2] -- 2
+INFO:openflow.of_01:[00-00-00-00-00-03 6] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-03 6] -- 3
+INFO:openflow.of_01:[00-00-00-00-00-0a 10] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-0a 10] -- 10
+INFO:openflow.of_01:[00-00-00-00-00-07 8] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-07 8] -- 7
+INFO:openflow.of_01:[00-00-00-00-00-08 3] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-08 3] -- 8
+INFO:openflow.of_01:[00-00-00-00-00-01 5] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-01 5] -- 1
+INFO:openflow.of_01:[00-00-00-00-00-09 4] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-09 4] -- 9
+INFO:openflow.of_01:[00-00-00-00-00-04 7] connected
+INFO:jelly_controller:CONNECTION UP [00-00-00-00-00-04 7] -- 4
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57528, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:01.10
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58290, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:03.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58288, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:03.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58292, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:03.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58296, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:03.8
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58298, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:03.8
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58302, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:03.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58304, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:03.8
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58306, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:03.9
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57534, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:01.10
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57546, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:01.10
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57544, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:01.9
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57548, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:01.10
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57550, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:01.9
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57554, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:01.10
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57556, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:01.10
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42472, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42482, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42488, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42490, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42492, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42494, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42496, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42498, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57528, 5001, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57534, 5001, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57546, 5001, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57548, 5001, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57554, 5001, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57556, 5001, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58296, 5001, 8
+INFO:jelly_controller:installing flow on s8 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:03.5
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58298, 5001, 8
+INFO:jelly_controller:installing flow on s8 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:03.5
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58304, 5001, 8
+INFO:jelly_controller:installing flow on s8 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:03.5
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58290, 5001, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:03.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58288, 5001, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:03.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58292, 5001, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:03.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58302, 5001, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:03.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58306, 5001, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:03.2
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57544, 5001, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57550, 5001, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42472, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42482, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42488, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42490, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42492, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42494, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42496, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.2, 42498, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58290, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58288, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58292, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58302, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58306, 5001, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58296, 5001, 5
+INFO:jelly_controller:installing flow on s5 for 00:00:00:00:00:01.8 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58298, 5001, 5
+INFO:jelly_controller:installing flow on s5 for 00:00:00:00:00:01.8 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58304, 5001, 5
+INFO:jelly_controller:installing flow on s5 for 00:00:00:00:00:01.8 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57528, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:02.10 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57534, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:02.10 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57546, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:02.10 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57548, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:02.10 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57554, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:02.10 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57556, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:02.10 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57544, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:02.9 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.2, 10.0.0.1, 57550, 5001, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:02.9 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42472, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42482, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42488, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42490, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42492, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42494, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42496, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42498, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:02.12 -> 00:00:00:00:00:03.3
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58290, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:01.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58296, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:01.5 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58298, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:01.5 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58304, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:01.5 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57528, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:02.10
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57534, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:02.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57546, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:02.10
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57548, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:02.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57554, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:02.10
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57556, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:02.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57544, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:02.10
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57550, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:01.11 -> 00:00:00:00:00:02.9
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58290, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:01.5
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58296, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:01.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58298, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:01.5
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58304, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:01.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57528, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58296, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:01.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58288, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:01.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58292, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:01.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58302, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:01.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.1, 10.0.0.3, 58306, 5001, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:01.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42472, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42482, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42488, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42490, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42492, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42494, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42496, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.2, 10.0.0.3, 5001, 42498, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:02.2 -> 00:00:00:00:00:03.13
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58290, 5
+INFO:jelly_controller:installing flow on s5 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:01.8
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57528, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.10 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58296, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:03.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58290, 8
+INFO:jelly_controller:installing flow on s8 for 00:00:00:00:00:03.5 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57546, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57554, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57544, 10
+INFO:jelly_controller:installing flow on s10 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58296, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:03.9 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58290, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:03.8 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57534, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57548, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57556, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57550, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:01.1 -> 00:00:00:00:00:02.2
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57546, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.10 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57534, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58298, 5
+INFO:jelly_controller:installing flow on s5 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:01.8
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58304, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:01.9
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58288, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:01.2
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58292, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:01.5
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58302, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:01.5
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58306, 3
+INFO:jelly_controller:installing flow on s3 for 00:00:00:00:00:03.13 -> 00:00:00:00:00:01.5
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58288, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:01.9
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57550, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57556, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57548, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.9 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57554, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.10 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.1, 10.0.0.2, 5001, 57544, 2
+INFO:jelly_controller:installing flow on s2 for 00:00:00:00:00:01.10 -> 00:00:00:00:00:02.12
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58298, 8
+INFO:jelly_controller:installing flow on s8 for 00:00:00:00:00:03.5 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58304, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:03.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58288, 9
+INFO:jelly_controller:installing flow on s9 for 00:00:00:00:00:03.2 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58298, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:03.8 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58304, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:03.9 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58292, 5
+INFO:jelly_controller:installing flow on s5 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:01.8
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58306, 5
+INFO:jelly_controller:installing flow on s5 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:01.8
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58302, 5
+INFO:jelly_controller:installing flow on s5 for 00:00:00:00:00:03.3 -> 00:00:00:00:00:01.8
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58292, 8
+INFO:jelly_controller:installing flow on s8 for 00:00:00:00:00:03.5 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58306, 8
+INFO:jelly_controller:installing flow on s8 for 00:00:00:00:00:03.5 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58302, 8
+INFO:jelly_controller:installing flow on s8 for 00:00:00:00:00:03.5 -> 00:00:00:00:00:01.1
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58292, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:03.8 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58288, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:03.9 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58306, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:03.8 -> 00:00:00:00:00:01.11
+INFO:jelly_controller:10.0.0.3, 10.0.0.1, 5001, 58302, 1
+INFO:jelly_controller:installing flow on s1 for 00:00:00:00:00:03.8 -> 00:00:00:00:00:01.11
